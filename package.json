@@ -1,0 +1,41 @@
+{
+  "name": "astra",
+  "version": "0.0.1",
+  "description": "boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon --exec 'npm run lint && npm run start'",
+    "start": "node ./index",
+    "test": "jest --",
+    "lint": "eslint index.js --ext .js ./src",
+    "babel-node": "babel-node"
+  },
+  "author": "Konstantin Shchelkanov <kschelkanov@icloud.com>",
+  "license": "MIT",
+  "jest": {
+    "testRegex": "tests/.*\\.test\\.(js|jsx)$"
+  },
+  "dependencies": {
+    "@headnhead/astra-framework": "0.0.4",
+    "babel-polyfill": "^6.26.0",
+    "babel-register": "^6.26.0",
+    "dotenv": "^6.0.0",
+    "koa-router": "^7.4.0",
+    "lodash": "^4.17.10",
+    "ramda": "^0.25.0",
+    "winston": "^3.0.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.5",
+    "babel-jest": "^23.2.0",
+    "babel-plugin-module-resolver": "^3.1.1",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-import-resolver-babel-module": "^4.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "jest": "^23.2.0",
+    "nodemon": "^1.17.5",
+    "supertest": "^3.1.0"
+  }
+}
