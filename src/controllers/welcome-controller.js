@@ -1,4 +1,3 @@
-export default () => {
-  throw new Error('SMTH WENT WRNG');
-  // ctx.body = 'Hello World!';
+export default (ctx) => {
+  ctx.body = 'Hello World!';
 };
