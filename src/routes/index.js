@@ -5,4 +5,4 @@ const router = new Router();
 
 router.get('/', WelcomeController);
 
-export default router.routes();
+export default router;
