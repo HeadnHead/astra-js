@@ -5,5 +5,8 @@
         "import/resolver": {
             "babel-module": {}
         }
+    },
+    "env": {
+        "jest": true
     }
 }
