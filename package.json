@@ -16,7 +16,7 @@
     "testRegex": "tests/.*\\.test\\.(js|jsx)$"
   },
   "dependencies": {
-    "@headnhead/astra-framework": "0.0.4",
+    "@headnhead/astra-framework": "^0.0.5",
     "babel-polyfill": "^6.26.0",
     "babel-register": "^6.26.0",
     "boom": "^7.2.0",
@@ -40,5 +40,16 @@
     "jest": "^23.2.0",
     "nodemon": "^1.17.5",
     "supertest": "^3.1.0"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HeadnHead/astra-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HeadnHead/astra-js/issues"
+  },
+  "homepage": "https://github.com/HeadnHead/astra-js#readme"
 }
