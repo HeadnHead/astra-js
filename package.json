@@ -16,7 +16,7 @@
     "testRegex": "tests/.*\\.test\\.(js|jsx)$"
   },
   "dependencies": {
-    "@headnhead/astra-framework": "^0.0.5",
+    "@headnhead/astra-framework": "^0.0.7",
     "babel-polyfill": "^6.26.0",
     "babel-register": "^6.26.0",
     "boom": "^7.2.0",

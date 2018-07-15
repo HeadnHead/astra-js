@@ -1,13 +1,8 @@
-import path from 'path';
-import App from '@headnhead/astra-framework';
+import app from 'bootstrap/create-app';
 import Boom from 'boom';
 import router from 'routes';
 import parseBody from 'koa-body';
 import helment from 'koa-helmet';
-
-const app = new App({
-  configDir: path.resolve(__dirname, '../config'),
-});
 
 app.on('error', error => app.make('logger').error(error));
 

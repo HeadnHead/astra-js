@@ -6,6 +6,9 @@
             "babel-module": {}
         }
     },
+    "globals": {
+        "app": true
+    },
     "env": {
         "jest": true
     }
